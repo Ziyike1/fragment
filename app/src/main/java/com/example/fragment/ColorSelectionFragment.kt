@@ -32,9 +32,8 @@ class ColorSelectionFragment : Fragment() {
             }
 
             override fun onNothingSelected(p0: AdapterView<*>?) {
-                TODO("Not yet implemented")
             }
         }
-        return null
+        return spinner
     }
 }
